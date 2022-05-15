@@ -141,10 +141,12 @@
   <ItemGroup>
     <ClCompile Include="Assignment.cpp" />
     <ClCompile Include="Hotel.cpp" />
+    <ClCompile Include="Rooms.cpp" />
     <ClCompile Include="TourGuide.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Hotel.h" />
+    <ClInclude Include="Rooms.h" />
     <ClInclude Include="TourGuide.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
