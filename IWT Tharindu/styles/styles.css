@@ -1,0 +1,114 @@
+
+
+hr {
+	border-top: 2px solid red
+}
+
+button {
+	display: inline-block;
+}
+
+img {
+	display: inline-block;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.reg 
+{
+	background-color: #555555;
+	font-size: 16px;
+	padding: 14px 40px;
+	border-radius: 12px;
+	color: white;
+}
+
+.reg:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn {
+  	/* float: center; */
+  	border: 1px solid green;
+  	color: white;
+  	font-size: 16px;
+  	padding: 14px 40px;
+  	background-color: #295226;
+  	display: inline-block;
+}
+
+.button1 {
+	background-color: #555555;
+	font-size: 16px;
+	padding: 14px 40px;
+	border-radius: 12px;
+	color: white;
+	display: block;
+	cursor: pointer;
+}
+
+.column {
+  float: left;
+  width: 48%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.button1{
+  margin: 10px; 
+  float: right;
+  background-color: #555555;
+  font-size: 16px;
+  padding: 14px 40px;
+  border-radius: 12px;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+
+.bookingButton{
+  margin: 20px; 
+  background-color: #555555;
+  font-size: 16px;
+  padding: 14px 40px;
+  border-radius: 12px;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+
+#profilePic{
+  width: 100px ; height: 100px; border-radius: 50%; padding: 5px;border-style: solid;
+}
